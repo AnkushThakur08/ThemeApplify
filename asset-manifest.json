@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ThemeApplify/static/css/main.626e7949.css",
+    "main.js": "/ThemeApplify/static/js/main.52d4dce0.js",
+    "static/js/787.84059a4c.chunk.js": "/ThemeApplify/static/js/787.84059a4c.chunk.js",
+    "static/media/logo1.png": "/ThemeApplify/static/media/logo1.cadd43018fd0743027a1.png",
+    "index.html": "/ThemeApplify/index.html",
+    "main.626e7949.css.map": "/ThemeApplify/static/css/main.626e7949.css.map",
+    "main.52d4dce0.js.map": "/ThemeApplify/static/js/main.52d4dce0.js.map",
+    "787.84059a4c.chunk.js.map": "/ThemeApplify/static/js/787.84059a4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.626e7949.css",
+    "static/js/main.52d4dce0.js"
+  ]
+}
