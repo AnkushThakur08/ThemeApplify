@@ -105,6 +105,7 @@ const Login = () => {
 
   useEffect(() => {
     ChangeColor();
+    // eslint-disable-next-line
   }, [theme]);
   console.log(theme);
 
