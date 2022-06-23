@@ -10,7 +10,7 @@ const Login = () => {
     remeberMe: false,
   });
 
-  const { email, password, remeberMe } = values;
+  const { email, password } = values;
 
   const [theme, setTheme] = useState("Light");
   const [colors, setColors] = useState({
@@ -49,11 +49,11 @@ const Login = () => {
       });
     } else if (theme === "corporate") {
       setColors({
-        HeadingColor: light.HeadingColor,
-        backgroundColor: light.backgroundColor,
-        textColor: light.textColor,
-        button: light.button,
-        buttonTextColor: light.buttonTextColor,
+        HeadingColor: corporate.HeadingColor,
+        backgroundColor: corporate.backgroundColor,
+        textColor: corporate.textColor,
+        button: corporate.button,
+        buttonTextColor: corporate.buttonTextColor,
       });
     }
   };
@@ -193,7 +193,7 @@ const Login = () => {
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
+                    href="#/"
                     onClick={HandleClick}
                     style={{ color: Styles.textColor }}
                   >
@@ -203,7 +203,7 @@ const Login = () => {
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
+                    href="#/"
                     onClick={HandleClick}
                     style={{ color: Styles.textColor }}
                   >
@@ -213,7 +213,7 @@ const Login = () => {
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
+                    href="#/"
                     onClick={HandleClick}
                     style={{ color: Styles.textColor }}
                   >
@@ -224,7 +224,7 @@ const Login = () => {
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
+                    href="#/"
                     onClick={HandleClick}
                     style={{ color: Styles.textColor }}
                   >
